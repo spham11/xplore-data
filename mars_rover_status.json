@@ -1,0 +1,619 @@
+{
+  "timestamp": "2026-11-14T06:17:44.810801Z",
+  "data": {
+    "schema": "xplore.rover_status.v2",
+    "overall_status": "caution",
+    "health": [
+      {
+        "id": "data_freshness",
+        "label": "Downlink freshness",
+        "value": 8,
+        "unit": "sols behind",
+        "status": "caution",
+        "source": "derived",
+        "detail": "Sols between today and the newest published data. Gaps are normal over weekends, holidays and solar conjunction.",
+        "sol": 2031
+      },
+      {
+        "id": "attitude",
+        "label": "Rover tilt",
+        "value": 7.3,
+        "unit": "deg",
+        "status": "nominal",
+        "source": "measured",
+        "detail": "roll 5.6 deg, pitch 4.7 deg at last waypoint",
+        "sol": 2022
+      },
+      {
+        "id": "mobility",
+        "label": "Distance, last 7 sols",
+        "value": 22.1,
+        "unit": "m",
+        "status": "info",
+        "source": "derived",
+        "detail": "3 drive sols in the last 30",
+        "sol": 2022
+      },
+      {
+        "id": "odometry",
+        "label": "Total odometry",
+        "value": 45.25,
+        "unit": "km",
+        "status": "info",
+        "source": "measured",
+        "detail": null,
+        "sol": 2022
+      },
+      {
+        "id": "thermal",
+        "label": "Air temperature (min)",
+        "value": -79.3,
+        "unit": "C",
+        "status": "nominal",
+        "source": "measured",
+        "detail": "max -24.7 C, pressure 778.9 Pa (MEDA)",
+        "sol": 1133
+      },
+      {
+        "id": "power",
+        "label": "MMRTG output (est.)",
+        "value": 90.8,
+        "unit": "W",
+        "status": "info",
+        "source": "modeled",
+        "detail": "2240 Wh per sol; 110 W at launch",
+        "sol": null
+      },
+      {
+        "id": "energy_margin",
+        "label": "Energy surplus (est.)",
+        "value": 760,
+        "unit": "Wh",
+        "status": "nominal",
+        "source": "modeled",
+        "detail": "after an assumed 60 W average housekeeping load",
+        "sol": null
+      },
+      {
+        "id": "wheels",
+        "label": "Wheel health (est.)",
+        "value": 38.6,
+        "unit": "%",
+        "status": "caution",
+        "source": "modeled",
+        "detail": "45.25 km driven, 1.358 % life per km (assumed 100 km wheel life)",
+        "sol": null
+      },
+      {
+        "id": "imaging",
+        "label": "Images, latest sol",
+        "value": 6,
+        "unit": "images",
+        "status": "nominal",
+        "source": "measured",
+        "detail": "SUPERCAM_RMI",
+        "sol": 2031
+      },
+      {
+        "id": "comms",
+        "label": "Sun-Earth-Mars angle",
+        "value": 89.57,
+        "unit": "deg",
+        "status": "nominal",
+        "source": "derived",
+        "detail": "one-way light time 10.66 min",
+        "sol": null
+      }
+    ],
+    "mission": {
+      "name": "Perseverance",
+      "status": "active",
+      "launch_utc": "2020-07-30T11:50:00Z",
+      "landing_utc": "2021-02-18T20:55:00Z",
+      "landing_site": "Jezero Crater",
+      "days_since_landing": 2094,
+      "latest_data_sol": 2031,
+      "total_photos": 553473,
+      "manifest_max_sol": 2024
+    },
+    "mars_clock": {
+      "mission_sol": 2039,
+      "msd": 54342.8084,
+      "lmst": "00:34",
+      "ltst": "00:07",
+      "ltst_hours": 0.124,
+      "solar_longitude_deg": 21.7,
+      "mars_year": 39,
+      "season": "northern spring",
+      "is_daytime": false,
+      "source": "derived",
+      "method": "NASA GISS Mars24 algorithm"
+    },
+    "location": {
+      "sol": 2022,
+      "site": 93.0,
+      "drive": 0.0,
+      "lat": 18.43559434,
+      "lon": 77.23322287,
+      "elevation_m": -1936.366943,
+      "easting_m": 4342256.503,
+      "northing_m": 1092764.278,
+      "attitude": {
+        "roll_deg": 5.58323465,
+        "pitch_deg": 4.693770891,
+        "yaw_deg": 93.9657952,
+        "tilt_deg": 7.289319877
+      },
+      "source": "measured"
+    },
+    "mobility": {
+      "odometry_m": 45245.7,
+      "last_drive_sol": 2022,
+      "last_drive_m": 22.1,
+      "distance_7_sols_m": 22.1,
+      "distance_30_sols_m": 119.6,
+      "drive_sols_30": 3,
+      "mean_abs_tilt_recent_deg": 10.74,
+      "source": "measured"
+    },
+    "power": {
+      "mmrtg_output_w": 90.8,
+      "mmrtg_output_at_launch_w": 110.0,
+      "mmrtg_decline_per_year_pct": 3.0,
+      "years_since_launch": 6.29,
+      "energy_per_sol_wh": 2240,
+      "base_load_w_assumed": 60.0,
+      "energy_surplus_per_sol_wh": 760,
+      "battery_count": 2,
+      "battery_ah_each": 43.0,
+      "battery_capacity_wh_est": 2408,
+      "battery_soc_assumed_start_pct": 90.0,
+      "battery_reserve_pct": 40.0,
+      "source": "modeled",
+      "note": "NASA publishes ~110 W at launch, a few % decline per year and 2 x 43 Ah Li-ion batteries; decline rate, bus voltage and loads are assumptions. No live battery telemetry is public."
+    },
+    "wheels": {
+      "odometry_km": 45.25,
+      "wheel_health_est_pct": 38.6,
+      "wear_per_km_pct": 1.358,
+      "terrain_factor": 1.36,
+      "rated_life_km_assumed": 100.0,
+      "source": "modeled",
+      "note": "No public wheel telemetry. Health = 1 - odometry x wear/km, wear scaled by recent mean tilt as a terrain-roughness proxy, against an assumed wheel life."
+    },
+    "environment": {
+      "sol": 1133,
+      "terrestrial_date": "2024-04-27",
+      "min_temp_c": -79.3,
+      "max_temp_c": -24.7,
+      "min_ground_temp_c": null,
+      "max_ground_temp_c": null,
+      "pressure_pa": 778.9,
+      "uv_index": null,
+      "opacity": null,
+      "sunrise": "06:18:07",
+      "sunset": "17:13:51",
+      "ls": 244.106,
+      "season": "late autumn",
+      "source": "measured",
+      "instrument": "MEDA"
+    },
+    "instruments": {
+      "latest_sol": 2031,
+      "images_latest_sol": 6,
+      "instruments_latest_sol": {
+        "SUPERCAM_RMI": 6
+      },
+      "instruments_sample": {
+        "MCZ_RIGHT": 48,
+        "MCZ_LEFT": 46,
+        "SUPERCAM_RMI": 6
+      },
+      "images_per_sol_sample": {
+        "2024": 94,
+        "2031": 6
+      },
+      "mast_pointing": {
+        "azimuth_deg": -0.22,
+        "elevation_deg": -62.18,
+        "instrument": "SUPERCAM_RMI",
+        "date_taken_utc": "2026-11-06T12:16:25.848",
+        "source": "measured"
+      },
+      "latest_image": {
+        "instrument": "SUPERCAM_RMI",
+        "date_taken_utc": "2026-11-06T12:16:25.848",
+        "title": "Mars Perseverance Sol 2031: SuperCam Camera",
+        "url": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02031/ids/edr/browse/scam/LRF_2031_0847237865_241EBY_N0930000SCAM01031_0100I4J01_800.jpg"
+      },
+      "source": "measured"
+    },
+    "comms": {
+      "earth_mars_distance_au": 1.2817,
+      "earth_mars_distance_million_km": 191.7,
+      "one_way_light_time_min": 10.66,
+      "sun_earth_mars_angle_deg": 89.57,
+      "solar_conjunction": false,
+      "source": "derived",
+      "method": "JPL Horizons positions from planet_update (barycentres; ~0.1 % distance error)"
+    },
+    "history": [
+      {
+        "sol": 1993,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1994,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1995,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1996,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1997,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1998,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 1999,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2000,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2001,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2002,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2003,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2004,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2005,
+        "drive_m": null,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2006,
+        "drive_m": 91.3,
+        "elevation_m": -1937.829712,
+        "odometry_km": 45.217,
+        "tilt_deg": 7.75437592,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2007,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2008,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2009,
+        "drive_m": 6.3,
+        "elevation_m": -1937.453125,
+        "odometry_km": 45.224,
+        "tilt_deg": 9.625036577,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2010,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2011,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2012,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2013,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2014,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2015,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2016,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2017,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2018,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2019,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2020,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2021,
+        "drive_m": 0.0,
+        "elevation_m": null,
+        "odometry_km": null,
+        "tilt_deg": null,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      },
+      {
+        "sol": 2022,
+        "drive_m": 22.1,
+        "elevation_m": -1936.366943,
+        "odometry_km": 45.246,
+        "tilt_deg": 7.289319877,
+        "min_temp_c": null,
+        "max_temp_c": null,
+        "pressure_pa": null,
+        "images_sampled": null
+      }
+    ],
+    "planner_inputs": {
+      "sol": 2039,
+      "rtg_power_w": 90.8,
+      "base_load_w": 60.0,
+      "battery_capacity_wh": 2408,
+      "battery_soc_start": 0.9,
+      "battery_soc_min": 0.4,
+      "wheel_health": 0.386,
+      "wheel_wear_per_km": 0.01358,
+      "drive_hours_per_sol": 4.0,
+      "min_air_temp_c": -79.3
+    },
+    "data_quality": {
+      "waypoints": {
+        "ok": true,
+        "fetched_utc": "2026-11-14T06:17:44.810801Z",
+        "stale": false
+      },
+      "raw_images": {
+        "ok": true,
+        "fetched_utc": "2026-11-14T06:17:44.810801Z",
+        "stale": false
+      },
+      "meda_weather": {
+        "ok": true,
+        "fetched_utc": "2026-11-14T06:17:44.810801Z",
+        "stale": false
+      },
+      "photo_manifest": {
+        "ok": true,
+        "fetched_utc": "2026-11-14T06:17:44.810801Z",
+        "stale": false
+      },
+      "earth_mars_geometry": {
+        "ok": true,
+        "fetched_utc": "2026-11-14T06:17:44.810801Z",
+        "stale": false
+      }
+    },
+    "name": "Perseverance",
+    "status": "active",
+    "landing_date": "2021-02-18",
+    "launch_date": "2020-07-30",
+    "max_sol": 2024,
+    "max_date": "2026-10-30",
+    "total_photos": 553473
+  }
+}
