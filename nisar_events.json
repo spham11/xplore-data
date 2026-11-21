@@ -1,0 +1,1681 @@
+{
+  "timestamp": "2026-11-15T00:33:15.066325Z",
+  "count": 5,
+  "data": [
+    {
+      "id": "pineisland_flow_2026",
+      "title": "Pine Island Glacier flow",
+      "kind": "velocity",
+      "bbox": [
+        -113.3,
+        -77.9,
+        -96.1,
+        -73.6
+      ],
+      "ongoing": true,
+      "reference_date": "2026-09-28",
+      "secondary_date": "2026-10-10",
+      "layers": [
+        {
+          "label": "Ice flow speed",
+          "role": "change",
+          "png": "/nisar/pineisland_flow_2026_speed.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "label": "After",
+          "role": "after",
+          "png": "/nisar/pineisland_flow_2026_speed.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "label": "Ice at rest",
+          "role": "before",
+          "png": "/nisar/pineisland_flow_2026_rest.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "label": "Agreement with ITS_LIVE",
+          "role": "validated",
+          "png": "/nisar/pineisland_flow_2026_speed_agreement.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        }
+      ],
+      "hud": {
+        "headline": "5.3 km/yr",
+        "sub": "peak ice-flow speed (99th percentile)",
+        "note": "Speed is the distance the ice surface moved between the two passes, scaled to a year. Ice slower than 300 m/yr is not drawn: it is within the noise of a 12-day pair. Speeds assume horizontal flow.",
+        "legend": "speed",
+        "vmax": 5000.0,
+        "total_km2": 6485.6,
+        "profile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          13.677,
+          57.368,
+          96.499,
+          329.389,
+          430.068,
+          420.95,
+          458.562,
+          408.413,
+          376.879,
+          389.797,
+          235.929,
+          147.408,
+          176.662,
+          188.06,
+          237.449,
+          256.445,
+          165.265,
+          172.863,
+          117.015,
+          66.486,
+          68.765,
+          95.36,
+          92.32,
+          71.045,
+          39.512,
+          0.0,
+          0.0,
+          0.0,
+          1.9,
+          0.0,
+          0.0,
+          0.76,
+          0.0,
+          0.0,
+          17.096,
+          35.712,
+          22.415,
+          25.834,
+          55.468,
+          99.919,
+          64.586,
+          51.669,
+          26.214,
+          46.35,
+          70.285,
+          104.098,
+          158.806,
+          191.859,
+          160.326,
+          126.513,
+          89.661,
+          22.415,
+          1.52,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "live_sub": "of ice flowing faster than 1 km per year",
+        "validation": {
+          "source": "ITS_LIVE annual velocity mosaic 2024 (120 m)",
+          "speed": {
+            "blocks": 68114,
+            "median_ratio": 1.06,
+            "correlation": 0.92,
+            "within_10": 0.57,
+            "within_20": 0.736,
+            "rmse_myr": 570.0,
+            "fast_blocks": 13975,
+            "fast_ratio": 0.961,
+            "min_speed": 300.0
+          },
+          "agreement": {
+            "both_km2": 5340.5,
+            "radar_only_km2": 3111.5,
+            "official_only_km2": 1303.1
+          },
+          "note": "ITS_LIVE is an average over 2024 and this is one 12-day pair, so some difference is real change. Only ice faster than 300 m/yr is scored. On the fastest ice (over 3,000 m/yr, 13975 blocks) NISAR is 4% below ITS_LIVE in this pair."
+        }
+      },
+      "granule": "NISAR_L2_PR_GOFF_031_149_A_140_032_4000_SH_20260928T134349_20260928T134425_20261010T134349_20261010T134425_P05023_N_F_J_001",
+      "relief": {
+        "png": "/nisar/pineisland_flow_2026_relief.webp",
+        "kind": "intensity"
+      },
+      "frames": [
+        {
+          "date": "2026-07-06",
+          "ref": "2026-06-24",
+          "role": "frame",
+          "km2": 7415.6,
+          "peak_myr": 5453,
+          "png": "/nisar/pineisland_flow_2026_t0.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-07-18",
+          "ref": "2026-07-06",
+          "role": "frame",
+          "km2": 7298.6,
+          "peak_myr": 5442,
+          "png": "/nisar/pineisland_flow_2026_t1.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-08-23",
+          "ref": "2026-08-11",
+          "role": "frame",
+          "km2": 7040.3,
+          "peak_myr": 5414,
+          "png": "/nisar/pineisland_flow_2026_t2.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "ref": "2026-08-23",
+          "role": "frame",
+          "km2": 7426.3,
+          "peak_myr": 5524,
+          "png": "/nisar/pineisland_flow_2026_t3.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "ref": "2026-09-04",
+          "role": "frame",
+          "km2": 6367.4,
+          "peak_myr": 5565,
+          "png": "/nisar/pineisland_flow_2026_t4.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "ref": "2026-09-16",
+          "role": "frame",
+          "km2": 5408.9,
+          "peak_myr": 5338,
+          "png": "/nisar/pineisland_flow_2026_t5.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        },
+        {
+          "date": "2026-10-10",
+          "ref": "2026-09-28",
+          "role": "frame",
+          "km2": 6485.6,
+          "peak_myr": 5257,
+          "png": "/nisar/pineisland_flow_2026_speed.webp",
+          "bounds": {
+            "west": -113.3,
+            "south": -77.9,
+            "east": -96.1,
+            "north": -73.6
+          }
+        }
+      ],
+      "series": {
+        "unit": "km\u00b2",
+        "label": "ice flowing faster than 1 km per year",
+        "kind": "speed",
+        "roles": {
+          "frame": "12-day pair"
+        }
+      },
+      "maturity": {
+        "code": "PR",
+        "label": "Provisional",
+        "products": [
+          "PR"
+        ]
+      },
+      "freshness": {
+        "checked_at": "2026-11-15",
+        "known_through": "2026-10-10",
+        "newest": null,
+        "new_count": 0
+      }
+    },
+    {
+      "id": "venezuela_quake_2026",
+      "title": "Venezuela earthquakes",
+      "kind": "displacement",
+      "bbox": [
+        -69.6,
+        9.5,
+        -66.85,
+        12.2
+      ],
+      "reference_date": "2026-06-13",
+      "secondary_date": "2026-06-25",
+      "frames": [
+        {
+          "date": "2026-06-01",
+          "ref": "2026-05-20",
+          "role": "before",
+          "km2": 91.6,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s0.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-06-13",
+          "ref": "2026-06-01",
+          "role": "before",
+          "km2": 89.3,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s1.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "ref": "2026-06-13",
+          "role": "event",
+          "km2": 1740.8,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-07-07",
+          "ref": "2026-06-25",
+          "role": "after",
+          "km2": 34.4,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s3.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-07-19",
+          "ref": "2026-07-07",
+          "role": "after",
+          "km2": 215.9,
+          "product": "UR",
+          "png": "/nisar/venezuela_quake_2026_s4.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-08-12",
+          "ref": "2026-07-19",
+          "role": "after",
+          "km2": 80.8,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s5.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-08-24",
+          "ref": "2026-08-12",
+          "role": "after",
+          "km2": 17.5,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s6.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "ref": "2026-08-24",
+          "role": "after",
+          "km2": 26.4,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s7.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-09-17",
+          "ref": "2026-09-05",
+          "role": "after",
+          "km2": 38.0,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s8.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-09-29",
+          "ref": "2026-09-17",
+          "role": "after",
+          "km2": 19.9,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s9.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "ref": "2026-09-29",
+          "role": "after",
+          "km2": 54.0,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s10.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "ref": "2026-10-11",
+          "role": "after",
+          "km2": 59.2,
+          "product": "PR",
+          "png": "/nisar/venezuela_quake_2026_s11.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        }
+      ],
+      "series": {
+        "unit": "km\u00b2",
+        "label": "ground moved more than 5 cm relative to the surrounding ground",
+        "event_index": 2,
+        "event_label": "QUAKE",
+        "kind": "pairs",
+        "roles": {
+          "before": "Before the quake",
+          "event": "The earthquakes",
+          "after": "Aftermath"
+        }
+      },
+      "epicentres": [
+        {
+          "id": "us6000t7zc",
+          "mag": 7.2,
+          "lat": 10.3713,
+          "lon": -68.5564,
+          "place": "20 km E of San Felipe",
+          "time": "2026-06-24T22:04:31Z"
+        },
+        {
+          "id": "us6000t7zp",
+          "mag": 7.5,
+          "lat": 10.5955,
+          "lon": -67.2205,
+          "place": "20 km W of Catia La Mar",
+          "time": "2026-06-24T22:05:04Z"
+        }
+      ],
+      "layers": [
+        {
+          "label": "Ground displacement",
+          "role": "change",
+          "png": "/nisar/venezuela_quake_2026.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "label": "After",
+          "role": "after",
+          "png": "/nisar/venezuela_quake_2026.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "label": "Before",
+          "role": "before",
+          "png": "/nisar/venezuela_quake_2026_before.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        },
+        {
+          "label": "Show UCSD's independent result (same fringes, 2 km)",
+          "role": "validated",
+          "png": "/nisar/venezuela_quake_2026_reference.webp",
+          "bounds": {
+            "west": -69.8245165885497,
+            "south": 9.345780403591771,
+            "east": -66.70549980971609,
+            "north": 12.355638872386882
+          }
+        }
+      ],
+      "relief": {
+        "png": "/nisar/venezuela_quake_2026_relief.webp",
+        "min_cm": -11.37,
+        "max_cm": 11.37
+      },
+      "hud": {
+        "headline": "\u00b111.37 cm",
+        "sub": "line-of-sight ground motion",
+        "note": "One colour cycle is about 11.9 cm of ground motion toward or away from the satellite. Before = ground at rest; After = the displacement between the two radar passes.",
+        "legend": "fringes",
+        "total_km2": 1740.8,
+        "profile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3.355,
+          1.46,
+          2.228,
+          1.383,
+          0.768,
+          0.487,
+          0.563,
+          0.768,
+          0.819,
+          0.435,
+          0.845,
+          0.666,
+          0.589,
+          0.435,
+          0.282,
+          0.0,
+          0.0,
+          0.102,
+          0.0,
+          0.0,
+          1.408,
+          1.127,
+          0.026,
+          0.0,
+          0.0,
+          0.077,
+          0.0,
+          0.0,
+          0.128,
+          0.794,
+          0.077,
+          0.154,
+          0.0,
+          1.511,
+          26.196,
+          68.449,
+          81.56,
+          94.082,
+          100.33,
+          105.631,
+          73.852,
+          68.372,
+          56.157,
+          40.946,
+          36.772,
+          33.725,
+          33.699,
+          32.317,
+          33.162,
+          33.059,
+          29.218,
+          19.385,
+          20.665,
+          26.913,
+          21.177,
+          24.173,
+          32.24,
+          33.008,
+          33.29,
+          23.124,
+          23.866,
+          23.508,
+          23.072,
+          26.734,
+          25.147,
+          27.323,
+          25.736,
+          25.556,
+          25.761,
+          26.709,
+          28.757,
+          22.227,
+          23.994,
+          25.94,
+          24.25,
+          26.683,
+          23.559,
+          29.372,
+          27.093,
+          14.699,
+          4.609,
+          8.502,
+          20.281,
+          5.454,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "live_sub": "of ground moved more than 5 cm (toward or away from the satellite, relative to the surrounding ground)",
+        "validation": {
+          "title": "Checked against an independent processing of the same radar pair",
+          "source": "UC San Diego / TOPEX, NISAR track 162 ascending, GMTSAR processing",
+          "lines": [
+            "Ground motion here matches the UCSD result: correlation 0.96, typical difference 0.4 cm.",
+            "UCSD maps 2,074 km\u00b2 as moved more than 5 cm; 92% of that area is flagged here too, and 97% of the area flagged here is flagged by UCSD."
+          ],
+          "correlation": 0.963,
+          "slope": 0.99,
+          "rms_cm": 1.1,
+          "median_abs_diff_cm": 0.4,
+          "recall": 0.918,
+          "precision": 0.968,
+          "iou": 0.891,
+          "overlap_km2": 22683.1,
+          "their_flagged_km2": 2074.4,
+          "our_flagged_km2": 1968.0,
+          "note": "Same satellite data, processed separately (UCSD: GMTSAR, separate ionosphere correction), so the check covers processing, not the satellite. Compared at 2 km, only where both maps have data (the UCSD grid covers the western part of the frame). Both are provisional NISAR products."
+        }
+      },
+      "granule": "NISAR_L2_PR_GUNW_022_162_A_007_023_4000_SH_20260613T100656_20260613T100731_20260625T100655_20260625T100730_P05023_N_F_J_001",
+      "maturity": {
+        "code": "PR",
+        "label": "Provisional",
+        "products": [
+          "PR"
+        ]
+      },
+      "freshness": {
+        "checked_at": "2026-11-15",
+        "known_through": "2026-10-23",
+        "newest": null,
+        "new_count": 0
+      }
+    },
+    {
+      "id": "haylygubbi_eruption_2025",
+      "title": "Hayli Gubbi eruption",
+      "kind": "displacement",
+      "bbox": [
+        39.6,
+        12.4,
+        41.8,
+        14.6
+      ],
+      "reference_date": "2025-11-22",
+      "secondary_date": "2025-12-04",
+      "frames": [
+        {
+          "date": "2025-12-04",
+          "ref": "2025-11-22",
+          "role": "event",
+          "km2": 40.3,
+          "product": "PR",
+          "png": "/nisar/haylygubbi_eruption_2025.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "date": "2025-12-16",
+          "ref": "2025-12-04",
+          "role": "after",
+          "km2": 3.4,
+          "product": "PR",
+          "png": "/nisar/haylygubbi_eruption_2025_s1.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "date": "2025-12-28",
+          "ref": "2025-12-16",
+          "role": "after",
+          "km2": 4.4,
+          "product": "PR",
+          "png": "/nisar/haylygubbi_eruption_2025_s2.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "date": "2026-01-09",
+          "ref": "2025-12-28",
+          "role": "after",
+          "km2": 3.4,
+          "product": "PR",
+          "png": "/nisar/haylygubbi_eruption_2025_s3.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "date": "2026-01-21",
+          "ref": "2026-01-09",
+          "role": "after",
+          "km2": 2.5,
+          "product": "PR",
+          "png": "/nisar/haylygubbi_eruption_2025_s4.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        }
+      ],
+      "series": {
+        "unit": "cm",
+        "label": "peak line-of-sight motion within 8 km of the summits",
+        "event_index": 0,
+        "event_label": "ERUPTION",
+        "kind": "pairs",
+        "roles": {
+          "event": "The eruption",
+          "after": "Aftermath"
+        },
+        "captions": {
+          "event": "{w}: the eruption. Peak ground motion near the summits: {km} cm along the line of sight.",
+          "after": "{w}: after the eruption. Peak motion near the summits: {km} cm."
+        }
+      },
+      "epicentres": [],
+      "layers": [
+        {
+          "label": "Ground displacement",
+          "role": "change",
+          "png": "/nisar/haylygubbi_eruption_2025.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "label": "After",
+          "role": "after",
+          "png": "/nisar/haylygubbi_eruption_2025.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "label": "Before",
+          "role": "before",
+          "png": "/nisar/haylygubbi_eruption_2025_before.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        },
+        {
+          "label": "Show the Sentinel-1 result (same fringes, other satellite)",
+          "role": "validated",
+          "png": "/nisar/haylygubbi_eruption_2025_reference.webp",
+          "bounds": {
+            "west": 39.95344948872923,
+            "south": 11.318316630595525,
+            "east": 43.12607564252045,
+            "north": 14.365438713905585
+          }
+        }
+      ],
+      "relief": {
+        "png": "/nisar/haylygubbi_eruption_2025_relief.webp",
+        "min_cm": -40.3,
+        "max_cm": 40.3
+      },
+      "hud": {
+        "headline": "\u00b140.3 cm",
+        "sub": "line-of-sight ground motion",
+        "note": "One colour cycle is about 11.9 cm of ground motion toward or away from the satellite. Before = ground at rest; After = the displacement between the two radar passes.",
+        "legend": "fringes",
+        "total_km2": 100.5,
+        "profile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.224,
+          12.115,
+          7.54,
+          5.086,
+          8.485,
+          3.834,
+          4.882,
+          1.994,
+          1.559,
+          7.693,
+          2.863,
+          0.946,
+          2.863,
+          5.009,
+          19.066,
+          12.37,
+          0.077,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.153,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.256,
+          0.0,
+          0.0,
+          0.0,
+          0.128,
+          0.588,
+          0.537,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.051,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.026,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.026,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.077,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.051,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "live_sub": "of ground moved more than 5 cm (toward or away from the satellite, relative to the surrounding ground)",
+        "validation": {
+          "title": "Checked against an independent Sentinel-1 radar result",
+          "source": "Sentinel-1C C-band, ascending, 19 Nov to 1 Dec 2025 (processed by ASF HyP3)",
+          "layer_label": "Show the Sentinel-1 result (same fringes, other satellite)",
+          "lines": [
+            "Sentinel-1 finds a matching peak 0.3 km from NISAR's strongest motion at the Erta Ale summit, moving the same way, at about 30% of NISAR's size.",
+            "Sentinel-1 has usable data on only 45% of the area NISAR maps as moving more than 10 cm, and across the whole 15 km window the two maps correlate at 0.40, where both are mostly at noise level."
+          ],
+          "correlation": 0.4,
+          "slope": 0.39,
+          "rms_cm": 2.5,
+          "median_abs_diff_cm": 1.2,
+          "recall": 0.067,
+          "precision": 0.052,
+          "iou": 0.03,
+          "local": {
+            "gap_km": 0.32,
+            "same_direction": true,
+            "strength_ratio": 0.3,
+            "nisar_peak_cm": -53.1,
+            "reference_peak_cm": -12.6,
+            "reference_coverage": 0.45,
+            "corr_window": 0.4,
+            "window_km": 15
+          },
+          "peak_cm": {
+            "nisar": 20.6,
+            "reference": 14.8
+          },
+          "overlap_km2": 590.2,
+          "their_flagged_km2": 2.7,
+          "our_flagged_km2": 3.4,
+          "note": "Different satellite, radar band and dates. Sentinel-1C (C-band, 5.6 cm wavelength) covers 19 November to 1 December, the eruption plus 8 days. NISAR (L-band, 24 cm) covers 22 November to 4 December, the eruption plus 11 days, so small differences in the later settling are possible. Compared only within 15 km of the Erta Ale summit, relative to ground 30 to 50 km away, and only where both have data (C-band loses coherence near the crater). NISAR is a provisional product."
+        }
+      },
+      "granule": "NISAR_L2_PR_GUNW_005_172_A_008_006_2000_SH_20251122T024618_20251122T024652_20251204T024618_20251204T024653_X05010_N_F_J_001",
+      "maturity": {
+        "code": "PR",
+        "label": "Provisional",
+        "products": [
+          "PR"
+        ]
+      },
+      "freshness": {
+        "checked_at": "2026-11-15",
+        "known_through": "2026-01-21",
+        "newest": null,
+        "new_count": 0,
+        "frozen": true
+      }
+    },
+    {
+      "id": "mozambique_flood_2026",
+      "title": "Mozambique floods",
+      "kind": "backscatter",
+      "bbox": [
+        32.6,
+        -25.5,
+        33.8,
+        -24.2
+      ],
+      "reference_date": "2026-01-05",
+      "secondary_date": "2026-01-17",
+      "layers": [
+        {
+          "label": "Newly flooded",
+          "role": "change",
+          "png": "/nisar/mozambique_flood_2026_flooded.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "label": "After",
+          "role": "after",
+          "png": "/nisar/mozambique_flood_2026_after.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "label": "Before",
+          "role": "before",
+          "png": "/nisar/mozambique_flood_2026_before.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "label": "Agreement with the official map",
+          "role": "validated",
+          "png": "/nisar/mozambique_flood_2026_flood_agreement.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        }
+      ],
+      "hud": {
+        "headline": "428 km\u00b2",
+        "sub": "new open water (the flood's open-water core)",
+        "note": "Cyan = ground that is open water after but not before. Open water is dark to L-band radar, and radar sees through clouds. Only the open-water core of the flood is found, not the full extent: shallow or vegetated flooding is not dark to L-band, so such water is missed.",
+        "legend": "flood",
+        "total_km2": 428.2,
+        "profile": [
+          0.464,
+          0.192,
+          0.168,
+          0.016,
+          0.152,
+          0.24,
+          0.152,
+          0.048,
+          0.088,
+          0.296,
+          0.256,
+          0.192,
+          1.072,
+          2.072,
+          3.816,
+          2.288,
+          3.52,
+          4.224,
+          6.168,
+          12.279,
+          11.296,
+          12.831,
+          18.399,
+          10.368,
+          7.384,
+          10.992,
+          12.311,
+          13.575,
+          10.592,
+          10.296,
+          12.599,
+          9.728,
+          7.016,
+          8.832,
+          9.24,
+          8.8,
+          14.135,
+          11.951,
+          7.088,
+          9.032,
+          7.568,
+          7.52,
+          6.976,
+          5.664,
+          6.504,
+          3.864,
+          2.592,
+          3.736,
+          5.896,
+          6.584,
+          3.504,
+          2.064,
+          1.872,
+          2.456,
+          3.784,
+          2.728,
+          1.632,
+          2.384,
+          4.064,
+          2.256,
+          1.472,
+          2.544,
+          1.944,
+          2.944,
+          3.136,
+          2.744,
+          3.512,
+          1.736,
+          1.28,
+          2.416,
+          2.632,
+          3.744,
+          5.096,
+          4.04,
+          7.072,
+          5.912,
+          4.568,
+          3.496,
+          2.024,
+          2.224,
+          4.36,
+          2.736,
+          3.056,
+          3.56,
+          3.08,
+          2.168,
+          1.928,
+          0.616,
+          1.344,
+          1.048,
+          0.92,
+          0.184,
+          0.152,
+          0.048,
+          0.072,
+          0.24,
+          0.312,
+          0.008,
+          0.016,
+          0.056
+        ],
+        "validation": {
+          "title": "Checked against Copernicus EMS flood map",
+          "inside_phrase": "an official flood area",
+          "source": "Copernicus EMS EMSR857 (COSMO-SkyMed SG, X-band, 15 m, 2026-01-20)",
+          "fires": [
+            {
+              "name": "Copernicus EMS flood map",
+              "perimeter_km2": 1284.5,
+              "flagged_km2": 161.1,
+              "share": 0.125
+            }
+          ],
+          "perimeter_km2": 1284.5,
+          "flagged_inside_km2": 161.1,
+          "flagged_outside_km2": 19.6,
+          "inside_share": 0.125,
+          "flag_precision": 0.892,
+          "outside_rate": 0.02,
+          "note": "The official map is from 20 Jan (X-band radar); the L-band pair ends up to 3 days earlier, while the flood was still growing. Only ground inside the mapped area is counted.",
+          "agreement": {
+            "both_km2": 161.1,
+            "radar_only_km2": 19.6,
+            "official_only_km2": 1123.4
+          }
+        }
+      },
+      "granule": [
+        "NISAR_L2_PR_GCOV_009_114_A_165_4005_DHDH_A_20260105T034232_20260105T034253_X05010_N_P_J_001",
+        "NISAR_L2_PR_GCOV_010_114_A_165_4005_DHDH_A_20260117T034232_20260117T034254_X05010_N_P_J_001"
+      ],
+      "frames": [
+        {
+          "date": "2025-11-30",
+          "role": "frame",
+          "km2": 7.4,
+          "png": "/nisar/mozambique_flood_2026_t0.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "date": "2025-12-12",
+          "role": "frame",
+          "km2": 396.8,
+          "png": "/nisar/mozambique_flood_2026_t1.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "date": "2025-12-24",
+          "role": "frame",
+          "km2": 152.7,
+          "png": "/nisar/mozambique_flood_2026_t2.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "date": "2026-01-05",
+          "role": "frame",
+          "km2": 414.6,
+          "png": "/nisar/mozambique_flood_2026_t3.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        },
+        {
+          "date": "2026-01-17",
+          "role": "frame",
+          "km2": 421.5,
+          "png": "/nisar/mozambique_flood_2026_t4.webp",
+          "bounds": {
+            "west": 32.6,
+            "south": -25.5,
+            "east": 33.8,
+            "north": -24.2
+          }
+        }
+      ],
+      "series": {
+        "unit": "km\u00b2",
+        "label": "open water that is not permanent (the flood's core)",
+        "kind": "dates",
+        "roles": {
+          "frame": "Flood season"
+        }
+      },
+      "maturity": {
+        "code": "PR",
+        "label": "Provisional",
+        "products": [
+          "PR"
+        ]
+      },
+      "relief": {
+        "kind": "terrain",
+        "encoding": "minmax",
+        "png": "/nisar/mozambique_flood_2026_terrain.webp",
+        "min_m": 0.0,
+        "max_m": 156.0,
+        "source": "Copernicus GLO-30 DEM"
+      },
+      "freshness": {
+        "checked_at": "2026-11-15",
+        "known_through": "2026-01-17",
+        "newest": null,
+        "new_count": 0,
+        "frozen": true
+      }
+    },
+    {
+      "id": "bigsur_fires_2026",
+      "title": "Big Sur wildfires",
+      "kind": "backscatter",
+      "bbox": [
+        -121.9,
+        35.7,
+        -121.2,
+        36.45
+      ],
+      "ongoing": true,
+      "reference_date": "2026-07-23",
+      "secondary_date": "2026-10-15",
+      "layers": [
+        {
+          "label": "Burn scar (backscatter change)",
+          "role": "change",
+          "png": "/nisar/bigsur_fires_2026_burn.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "label": "After",
+          "role": "after",
+          "png": "/nisar/bigsur_fires_2026_after.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "label": "Before",
+          "role": "before",
+          "png": "/nisar/bigsur_fires_2026_before.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "label": "HV change (signed)",
+          "role": "diagnostic",
+          "png": "/nisar/bigsur_fires_2026_diag_hv.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "label": "HH change (signed)",
+          "role": "diagnostic",
+          "png": "/nisar/bigsur_fires_2026_diag_hh.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "label": "Agreement with the official perimeter",
+          "role": "validated",
+          "png": "/nisar/bigsur_fires_2026_burn_agreement.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        }
+      ],
+      "hud": {
+        "headline": "209 km\u00b2",
+        "sub": "L-band backscatter change (burn-scar candidate)",
+        "note": "Brighter and taller = stronger change between the two dates: cross-pol (HV) backscatter falls and the HH/HV ratio rises where vegetation is lost. Cropland masked out. Not an official burned-area map.",
+        "legend": "fire",
+        "total_km2": 208.7,
+        "profile": [
+          4.659,
+          2.959,
+          1.852,
+          1.34,
+          1.368,
+          0.74,
+          0.64,
+          0.455,
+          0.199,
+          0.332,
+          0.443,
+          0.353,
+          0.408,
+          0.624,
+          1.712,
+          1.755,
+          1.33,
+          1.819,
+          2.917,
+          2.409,
+          2.608,
+          3.083,
+          4.121,
+          3.502,
+          4.043,
+          3.984,
+          5.558,
+          5.523,
+          5.112,
+          5.378,
+          3.289,
+          3.68,
+          2.274,
+          3.694,
+          3.948,
+          3.936,
+          3.166,
+          2.985,
+          2.025,
+          0.647,
+          0.356,
+          0.451,
+          0.27,
+          0.138,
+          0.185,
+          0.223,
+          0.18,
+          0.311,
+          0.225,
+          0.37,
+          0.541,
+          0.261,
+          0.474,
+          0.481,
+          0.65,
+          1.361,
+          1.705,
+          1.973,
+          1.887,
+          1.961,
+          1.233,
+          0.529,
+          1.748,
+          2.186,
+          2.883,
+          2.777,
+          2.76,
+          2.917,
+          2.186,
+          3.092,
+          2.971,
+          3.121,
+          3.851,
+          4.252,
+          5.134,
+          5.506,
+          6.184,
+          6.196,
+          6.727,
+          7.197,
+          7.04,
+          5.715,
+          2.44,
+          1.304,
+          0.605,
+          0.569,
+          0.161,
+          0.123,
+          0.33,
+          0.287,
+          0.251,
+          0.159,
+          0.028,
+          0.145,
+          0.299,
+          0.301,
+          0.135,
+          0.069,
+          0.109,
+          0.27
+        ],
+        "validation": {
+          "source": "NIFC WFIGS interagency fire perimeters",
+          "fires": [
+            {
+              "name": "Timber",
+              "acres": 25350,
+              "km2": 102.6,
+              "updated": "2026-10-09",
+              "perimeter_km2": 105.1,
+              "flagged_km2": 55.1,
+              "share": 0.524
+            },
+            {
+              "name": "Plaskett",
+              "acres": 29993,
+              "km2": 121.4,
+              "updated": "2026-09-15",
+              "perimeter_km2": 123.4,
+              "flagged_km2": 74.6,
+              "share": 0.604
+            }
+          ],
+          "perimeter_km2": 228.5,
+          "flagged_inside_km2": 129.7,
+          "flagged_outside_km2": 79.0,
+          "inside_share": 0.568,
+          "flag_precision": 0.622,
+          "outside_rate": 0.018,
+          "note": "Official perimeters are the latest published by NIFC and can differ a little from the radar date.",
+          "buffered": {
+            "buffer_m": 146,
+            "flagged_near_km2": 130.4,
+            "flagged_far_km2": 78.3,
+            "inside_share": 0.832,
+            "flag_precision": 0.625,
+            "outside_rate": 0.018
+          },
+          "agreement": {
+            "both_km2": 129.7,
+            "radar_only_km2": 79.0,
+            "official_only_km2": 98.8
+          }
+        }
+      },
+      "granule": [
+        "NISAR_L2_PR_GCOV_026_042_D_070_4005_DHDH_A_20260723T025640_20260723T025715_P05023_N_F_J_001",
+        "NISAR_L2_PR_GCOV_033_042_D_070_4005_DHDH_A_20261015T025639_20261015T025713_P05023_N_F_J_001"
+      ],
+      "relief": {
+        "png": "/nisar/bigsur_fires_2026_relief.webp",
+        "kind": "intensity"
+      },
+      "frames": [
+        {
+          "date": "2026-07-23",
+          "role": "baseline",
+          "km2": 0.0,
+          "png": "/nisar/bigsur_fires_2026_t0.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "role": "frame",
+          "km2": 23.5,
+          "png": "/nisar/bigsur_fires_2026_t1.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-08-28",
+          "role": "frame",
+          "km2": 36.4,
+          "png": "/nisar/bigsur_fires_2026_t2.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "role": "frame",
+          "km2": 66.4,
+          "png": "/nisar/bigsur_fires_2026_t3.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "role": "frame",
+          "km2": 99.6,
+          "png": "/nisar/bigsur_fires_2026_t4.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "role": "frame",
+          "km2": 123.1,
+          "png": "/nisar/bigsur_fires_2026_t5.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "role": "frame",
+          "km2": 208.7,
+          "png": "/nisar/bigsur_fires_2026_t6.webp",
+          "bounds": {
+            "west": -121.9,
+            "south": 35.7,
+            "east": -121.2,
+            "north": 36.45
+          }
+        }
+      ],
+      "series": {
+        "unit": "km\u00b2",
+        "label": "burn-scar candidates",
+        "baseline": "2026-07-23",
+        "kind": "dates",
+        "roles": {
+          "baseline": "Before the fires",
+          "frame": "Fire season"
+        }
+      },
+      "maturity": {
+        "code": "PR",
+        "label": "Provisional",
+        "products": [
+          "PR"
+        ]
+      },
+      "freshness": {
+        "checked_at": "2026-11-15",
+        "known_through": "2026-10-15",
+        "newest": null,
+        "new_count": 0
+      }
+    }
+  ]
+}
